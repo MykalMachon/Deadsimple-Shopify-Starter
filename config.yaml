@@ -1,0 +1,22 @@
+# This is used by @Shopify/Themekit to connect to your shopify store
+
+production:
+  password: ${PROD_PASSWORD}
+  theme_id: ${PROD_THEMEID}
+  store: ${STOREURL}
+  ignore_files:
+    - settings_data.json
+
+staging:
+  password: ${STAG_PASSWORD}
+  theme_id: ${STAG_THEMEID}
+  store: ${STOREURL}
+  ignore_files:
+    - settings_data.json
+
+development:
+  password: ${DEV_PASSWORD}
+  theme_id: ${DEV_THEMEID}
+  store: ${STOREURL}
+  ignore_files:
+    - settings_data.json

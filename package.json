@@ -1,0 +1,37 @@
+{
+  "name": "deadsimple-shopify",
+  "version": "1.0.0",
+  "description": "A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻✨",
+  "main": "./src/app/index.js",
+  "scripts": {
+    "test": "cypress",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykalMachon/deadsimple-shopify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykalMachon/deadsimple-shopify/issues"
+  },
+  "homepage": "https://github.com/MykalMachon/deadsimple-shopify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^5.2.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "cypress": "^4.9.0",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-cypress": "^2.11.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

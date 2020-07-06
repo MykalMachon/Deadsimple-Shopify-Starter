@@ -1,3 +1,3 @@
 # Deadsimple Shopify 💰
 
-A deadsimple shopify theme with killer DX and web perf
+A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻✨

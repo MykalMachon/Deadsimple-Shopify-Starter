@@ -1,0 +1,7 @@
+# Build & Lib Files
+/node_modules
+/dist
+
+# Config Files
+*.env
+deploy.log
