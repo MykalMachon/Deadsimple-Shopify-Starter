@@ -1,1 +1,41 @@
-<!-- TODO build out a basic theme file -->
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf8">
+    <title>{{page_title}} - {{shop.name}}</title>
+    {% if page_description %}
+      <meta name="description" content="{{page_description}}">
+    {% endif %}
+    <link rel="shortcut icon" href="{{ favicon.png | asset_url }}">
+
+    <!-- Global Styles -->
+    {{ 'main.scss.css' | asset_url | stylesheet_tag}}
+
+    <!-- Gloabl Javascript -->
+    <script src="{{ 'index.bundle.js'     | asset_url }}" async></script>
+    <script src="{{ 'index.bundle.js.map' | asset_url}}" async defer></script>
+
+    {% if template contains "customer" %}
+      {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+      {{ 'customer_area.js'  | shopify_asset_url | script_tag }}
+    {% endif %}
+
+    <!-- Shopify Specific JS -->
+    {{ content_for_header }}
+  </head>
+  <body>
+    {% comment %} START HEADER {% endcomment %}
+      <header>
+        <h1>{{shop.name}}</h1>
+      </header>
+    {% comment %} END HEADER {% endcomment %}
+
+    {{ content_for_layout }}
+
+    {% comment %} START FOOTER {% endcomment %}
+      <footer>
+        <p class="footer__content">Thanks for shopping 👋🏻</p>
+      </footer>
+    {% comment %} END FOOTER {% endcomment %}    
+  </body>
+
+</html>
