@@ -4,7 +4,13 @@
   "description": "A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻✨",
   "main": "./src/app/index.js",
   "scripts": {
-    "test": "cypress",
+    "start": "run-p dev:*",
+    "dev:open": "env-cmd shopify-themekit open --env=development",
+    "dev:watch": "env-cmd webpack --watch",
+    "dev:deploy": "env-cmd shopify-themekit watch --env=development",
+    "test": "run-s test:*",
+    "test:lint": "eslint 'src/app/**'",
+    "test:e2e": "cypress open",
     "build": "webpack"
   },
   "repository": {
@@ -22,6 +28,7 @@
     "@babel/core": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "@shopify/themekit": "^1.1.4",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "concurrently": "^5.2.0",
@@ -31,6 +38,7 @@
     "eslint": "^7.4.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-cypress": "^2.11.1",
+    "npm-run-all": "^4.1.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }

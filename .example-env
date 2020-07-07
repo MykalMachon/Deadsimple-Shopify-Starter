@@ -1,0 +1,14 @@
+# Generic variables
+STOREURL=mytest.myshopify.com
+
+# Production Variables
+PROD_PASSWORD=abcdefg123456
+PROD_THEMEID=1234567890
+
+# Staging Variables
+STAG_PASSWORD=abcdefg123456
+STAG_THEMEID=1234567890
+
+# Development Variables
+DEV_PASSWORD=abcdefg123456
+DEV_THEMEID=1234567890
