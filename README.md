@@ -6,6 +6,7 @@ A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻�
 
 ## Features
 With Shopify's Slate now deprecated, The main value of this theme, is to modernize & streamline the development of Shopify themes.  
+
 With that in mind, I've left the theme intentionally simple, you can leave it how it is, or swap the template files out & just keep the DX features. 
 
 Here's a list of the key features today:
