@@ -13,5 +13,5 @@ Here's a list of the key features today:
 - **🏪 Multiple Themes & Store Configs:** Configurable with different shopify themes & storefronts, comes out of the box with infra for dev, staging, and production stores. 
 - **🛠 Webpack Support:** A Modern Webpack setup with sane defaults out of the box. This can be easily extended to support most modern JS needs (React, Vue, Typescript, etc)
 - **🕵️‍♀️ Eslint Support:** Eslint setup with sane defaults out of the box. This can easily be replaced with your existing EsLint setup or stripped out all together. 
-- **💾 Easy Deploy & Dev Scripts:** Easily develop your store using `npm run dev` which will open your dev theme in your browser, watch your js for changes with webpack, and deploy any code changes to your dev theme upon changes. While this isn't local dev like Slate offered, it *feels* close. 
+- **💾 Easy Deploy & Dev Scripts:** Easily develop your store using `npm run dev` which will open your dev theme in your browser, watches for changes to your theme files & JS with for seamless updates as you write code. While this isn't local dev like Slate offered, it *feels* close. 
 - **🧪 E2E testing with Cypress.io:** End to End testing setup with Cypress to make sure your site stays in great shape when you make changes. 
