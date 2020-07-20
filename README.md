@@ -5,9 +5,9 @@ A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻�
 *This project is a WIP, I wouldn't recommend using it yet*
 
 ## Features
-With Shopify's Slate now deprecated, The main value of this theme, is to modernize & streamline the development of Shopify themes.  
+With Shopify's Slate now deprecated, The main value of this theme, is to modernize & streamline the development experience of Shopify themes.  
 
-With that in mind, I've left the theme intentionally simple, you can leave it how it is, or swap the template files out & just keep the DX features. 
+With that in mind, I've left the theme intentionally simple, and is meant to act as a "starter" (similar to the underscores theme in wordpressland) with some killer DX stuff builtin from the start. 
 
 Here's a list of the key features today:
 - **🏪 Multiple Themes & Store Configs:** Configurable with different shopify themes & storefronts, comes out of the box with infra for dev, staging, and production stores. 
