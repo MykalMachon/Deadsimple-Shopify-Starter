@@ -20,10 +20,10 @@ Here's a list of the key features today:
 To get started, you can either start working with the template theme included in `/src/` or paste in your own theme
 > be sure not to delete `/src/app` as it acts as your JS folder
 
-### Working with Javascript
+## Working with Your Own Javascript
 Deadsimple Shopify is setup to work out of the box with a simple webpack setup. Paste your existing JS into the `/src/app/` folder and intiailize your JS in the `/src/app/main.js` file. 
 
-#### How to add additional entrypoints
+### How to add additional entrypoints
 Do you have a javascript file that you only want to load on certain templates? 
 - a js file you only want to run on your product page.
 - a  js file you only need for a specific tempalte or landing page.
