@@ -33,8 +33,8 @@ Do you have a javascript file that you only want to load on certain templates?
 **This requires you to manually edit the webpack config, but I'll guide you through it!**
 1. go to `/webpack.config.js` and find the `entry` object.
 2. Add a key value pair for your new file where the key is `assets/{your-file-name-here}` and the value is a relative path to your js file.
-3. Link the entrypoint file from your liquid files using a liquid tag, like this: `{{ 'your-file-name.js' | asset_url | script_url }}`. See [their docs for more info](https://shopify.dev/docs/themes/liquid/reference/filters/url-filters#asset_url)
-4. Make to restart your dev server, and that the new file has been uploaded to your shopify theme. 
+3. Link the entrypoint file from your liquid files using a liquid tag, like this: `{{ 'your-file-name.js' | asset_url | script_url }}`. See [the Shopify docs for more info](https://shopify.dev/docs/themes/liquid/reference/filters/url-filters#asset_url)
+4. Make sure to restart your dev server, and that the new file has been uploaded to your shopify theme. 
 4. Tada :tada: you've got a new JS entry point that you can link off to! 
 
 Here's an example of what the entry object should look like with your custom javascript entrypoint files:
