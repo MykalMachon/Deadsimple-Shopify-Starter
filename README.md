@@ -1,8 +1,11 @@
+# ⚠ THIS PROJECT IS ARCHIVED ⚠
+I no longer recommend using this repo- 
+
+I'm working on a number of tools to make deploying modern Shopify themes easier over at [@TinyboxSoftware](https://github.com/TinyboxSoftware)
+
 # Deadsimple Shopify 💰
 
 A dead-simple shopify theme with killer DX and web perf 👨🏻‍💻🏇🏻✨
-
-*This project is a WIP, I wouldn't recommend using it yet*
 
 ## Features
 With Shopify's Slate now deprecated, The main value of this theme, is to modernize & streamline the development experience of Shopify themes.  
